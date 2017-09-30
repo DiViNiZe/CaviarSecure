@@ -1,7 +1,6 @@
 # Carviar Secure
 An Application for remember password Butiful design Fast working Use React babel redux .Knocking lasspass down.eiei Develop By lowF@Tdeveloper
 
-[![Build Status](https://travis-ci.org/tshaddix/react-chrome-redux.svg?branch=master)](https://travis-ci.org/tshaddix/react-chrome-redux)
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 
