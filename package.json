@@ -1,0 +1,39 @@
+{
+  "name": "CaviarSecure",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint-src": "./node_modules/.bin/eslint src/**/*.js",
+    "lint-test": "./node_modules/.bin/eslint test/**/*.js",
+    "lint": "npm run lint-src && npm run lint-test",
+    "prepublish": "./node_modules/.bin/babel src --out-dir lib",
+    "pretest": "./node_modules/.bin/babel src --out-dir lib",
+    "test-run": "./node_modules/.bin/mocha --compilers js:babel-core/register",
+    "test": "npm run lint && npm run test-run"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "lowF@TDev",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "lodash": "^4.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.2.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.3.13",
+    "eslint": "^3.17.1",
+    "mocha": "^2.3.4",
+    "should": "^8.2.0",
+    "sinon": "^1.17.2"
+  }
+}
